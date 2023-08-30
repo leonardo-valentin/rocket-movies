@@ -1,7 +1,4 @@
-const AppError = require("../utils/AppError")
-
 const knex = require("../database/knex")
-const { response } = require("express")
 
 class NotesController {
     async create(request, response) {
